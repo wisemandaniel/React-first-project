@@ -16,7 +16,7 @@ const Home = () => {
 
     useEffect(() => {
         console.log('This is useEffecct hook in action');
-    })
+    }, [])
 
     return ( 
         <div className="home">
