@@ -16,7 +16,7 @@ const Home = () => {
 
     useEffect(() => {
         console.log('This is useEffecct hook in action');
-    }, [])
+    }, [blogs])
 
     return ( 
         <div className="home">
