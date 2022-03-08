@@ -3,8 +3,8 @@ const Home = () => {
        console.log("Hello, ninjas");
     }
 
-    const handleClickAgain = (name) => {
-        console.log('Hello ' + name);
+    const handleClickAgain = (name, e) => {
+        console.log('Hello ' + name, e.target);
     }
 
     return ( 
@@ -12,7 +12,7 @@ const Home = () => {
            <h2>Home component</h2> 
            <button onClick={handleClick('DANIEL')}>Click me</button>   
            <br /><br />
-           <button onClick={() => handleClickAgain('DANIEL')}>Click me</button> 
+           <button onClick={(e) => handleClickAgain('DANIEL', e)}>Click me</button> 
         </div>
      );
 }
