@@ -17,12 +17,6 @@
       "body": "This is a test blog to test the post endpoint",
       "author": "mario",
       "id": 3
-    },
-    {
-      "title": "Another test blog",
-      "body": "this is another test blog",
-      "author": "yoshi",
-      "id": 4
     }
   ]
 }
